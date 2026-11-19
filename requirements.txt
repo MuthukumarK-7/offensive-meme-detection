@@ -1,0 +1,12 @@
+# Packages imported by notebooks/offensive_meme_detection.ipynb
+# (versions intentionally not pinned - see README "Installation").
+# On Kaggle, only `ultralytics` needs installing; the rest are pre-installed.
+ultralytics
+torch
+numpy
+pandas
+scikit-learn
+matplotlib
+Pillow
+tqdm
+ipywidgets

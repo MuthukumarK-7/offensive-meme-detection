@@ -1,0 +1,39 @@
+# ---- Dataset (Hateful Memes licence forbids redistribution) ----
+data/
+dataset/
+input/
+img/
+*.jsonl
+
+# ---- Model weights / checkpoints (large) ----
+*.pt
+*.pth
+*.ckpt
+*.onnx
+runs/
+
+# ---- Secrets / credentials ----
+.env
+*.env
+kaggle.json
+.kaggle/
+*.pem
+*.key
+secrets*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
